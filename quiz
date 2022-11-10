@@ -1,0 +1,419 @@
+#include <iostream>
+#include <windows.h>
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL, "rus");
+
+    int a = 0; 
+    bool var = true; 
+    int rez = 0;
+
+    //1
+    cout << " Как будет досвиданье на Итальянском? \n 1) Zucchero\n 2) Arrividerci\n 3) Scusa\n";
+    do {
+        cin >> a; 
+        system("cls");
+        switch (a) 
+        {
+        case 1:  
+            cout << "Неправильный ответ" << endl;
+            break; 
+        case 2: 
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        case 3:
+            cout << "Неправильный ответ" << endl;
+            break;
+        default: 
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //2
+    cout << " Сколко дней в году? \n 1) 365\n 2) 278\n 3) 326\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        case 2:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 3:
+            cout << "Неправильный ответ" << endl;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //3
+    cout << " Как определить сколко лет дереву? \n 1) По окружностям на спиле\n 2) По высоте дерева\n 3) По длинне корней дерева\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        case 2:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 3:
+            cout << "Неправильный ответ" << endl;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //4
+    cout << " Без чего игра Team Fortress 2 не будет работать? \n 1) Движущихся обЪектов\n 2) Текстура контрольных точек\n 3) Фото кокоса\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 2:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 3:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //5
+    cout << "  Когда вышел fnaf 1? \n 1) 2 марта 2015 г.\n 2) 8 августа 2014 г.\n 3) 11 ноября 2014 г.\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 2:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        case 3:
+            cout << "Неправильный ответ" << endl;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //6
+    cout << "  Какое животное является символом Канады? \n 1) Бобр\n 2) Бизон\n 3) Лось\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        case 2:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 3:
+            cout << "Неправильный ответ" << endl;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //7
+    cout << " Как называется самая высокая точка положения солнца над горизонтом? \n 1) Надир\n 2) Зенит\n 3) Да\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 2:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        case 3:
+            cout << "Неправильный ответ" << endl;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //8
+    cout << "  Какой это вопрос по счёту? \n 1) 6\n 2) 10\n 3) 8\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 2:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 3:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //9
+    cout << "  Сколко ножек у самки редкой калифорнийской многоножки? \n 1) 382\n 2) 96\n 3) 750\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 2:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 3:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //10
+    cout << " Сколько зубов у улитки \n 1) 5-8тыс.\n 2) 10-25тыс.\n 3) 30тыс.+\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 2:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        case 3:
+            cout << "Неправильный ответ" << endl;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //11
+    cout << " Расстояние от Земли до Луны \n 1) 478 200 км\n 2) 384 400 км\n 3) 576 420 км\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 2:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        case 3:
+            cout << "Неправильный ответ" << endl;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //12
+    cout << " Расстояние между Россией и Америкой \n 1) 100км\n 2) 7 233км\n 3) 4км\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 2:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 3:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //13
+    cout << " Максимальное количество символов в Discord без подписки Nitro \n 1) 200\n 2) 4000\n 3) 2000\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 2:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 3:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //14
+    cout << " Когда появился первый компьютер? \n 1) 1927\n 2) 1930\n3) 1932\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        case 2:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 3:
+            cout << "Неправильный ответ" << endl;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    //15
+    cout << " Когда c++? \n 1) 1985\n 2) 1989\n3) 1993\n";
+    do {
+        cin >> a;
+        system("cls");
+        switch (a)
+        {
+        case 1:
+            cout << "Правильный ответ" << endl;
+            rez++;
+            break;
+        case 2:
+            cout << "Неправильный ответ" << endl;
+            break;
+        case 3:
+            cout << "Неправильный ответ" << endl;
+            break;
+        default:
+            cout << "Ответа под номером " << a << " нет! ";
+            cout << "Сделайте правильный выбор (от 1 до 3): ";
+        }
+        if (a >= 1 && a <= 3)
+            var = false;
+    } while (var);
+    cout << rez;
+    Sleep(3000);
+    system("cls");
+    return 0;
+}
